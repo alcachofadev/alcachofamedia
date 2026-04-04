@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // ¡CAMBIALA! - Usa una contraseña segura
-const ADMIN_PASSWORD = 'alcachofa_admin_2026';
+const ADMIN_PASSWORD = 'AcCo85246';
 
 export default async function handler(req, res) {
   // Configurar CORS para permitir peticiones desde tu dominio
