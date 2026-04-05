@@ -29,28 +29,28 @@
   {
     "id": 2,
     "createdAt": 1700000000001,
-    "title": "The Dark Knight",
-    "year": 2008,
-    "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
-    "tags": ["Acción", "Crimen"],
-    "download": "#",
+    "title": "María Sabina, Mujer Espíritu",
+    "year": 1978,
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_face/9z1Zi1XYfruvGg4T6BWPEsnFAyl.jpg",
+    "tags": ["Documental", "Español"],
+    "download": "https://cpmlink.net/yj-oAQ",
     "featured": false,
-    "synopsis": "Batman eleva la lucha contra el crimen cuando el Joker surge y siembra el caos en Gotham City.",
-    "youtubeId": "EXeTwQWrcwY",
+    "synopsis": "Después de terminar la preparatoria, tres amigos tienen que elegir sus caminos. Pastor sueña con volar y ganar el amor de Flor, mientras que su hermano celoso, Nacho, es seducido por la pandilla local y cae en el crimen.",
+    "youtubeId": "#",
     "ratings": {
-      "imdb": "9.0",
-      "rt": "94%",
-      "meta": "84"
+      "imdb": "7.7",
+      "rt": "87%",
+      "meta": "74"
     },
     "ficha": {
-      "director": "Christopher Nolan",
-      "guionista": "Jonathan Nolan, Christopher Nolan",
-      "duracion": "152 min",
-      "pais": "Estados Unidos, Reino Unido",
-      "idioma": "Inglés",
-      "estudio": "Warner Bros. Pictures",
+      "director": "Nicolás Echevarría",
+      "guionista": "Nicolás EchevarríaAlvaro Estrada",
+      "duracion": "81 min",
+      "pais": "México",
+      "idioma": "Latino,Castellano",
+      "estudio": "CPC",
       "formato": "MKV 1080p",
-      "calidad": "BluRay"
+      "calidad": "WEB-DL"
     }
   },
   {
