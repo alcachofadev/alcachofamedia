@@ -2,28 +2,28 @@
   {
     "id": 1,
     "createdAt": 1700000000000,
-    "title": "Interstellar",
-    "year": 2014,
-    "poster": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
-    "tags": ["Ciencia Ficción", "Aventura"],
-    "download": "#",
+    "title": "Verano del 84",
+    "year": 2018,
+    "poster": "https://media.themoviedb.org/t/p/w300_and_h450_face/htA4DEnBQf7Wg4M1jsUr7kHALrV.jpg",
+    "tags": ["Ciencia Ficción", "Aventura", "Terror Adolescente","Crimen","Misterio","Drama"],
+    "download": "https://cpmlink.net/qT-oAQ",
     "featured": true,
-    "synopsis": "Un grupo de exploradores viaja a través de un agujero de gusano en el espacio para garantizar la supervivencia de la humanidad.",
-    "youtubeId": "zSWdZVtXT7E",
+    "synopsis": "Al sospechar que su vecino policía es en realidad un asesino en serie, un grupo de adolescentes se pasan el verano espiándole y reuniendo pruebas, pero conforme se acercan a la verdad las cosas se ponen peligrosas.",
+    "youtubeId": "https://www.youtube.com/@TodoFreez",
     "ratings": {
-      "imdb": "8.7",
-      "rt": "73%",
-      "meta": "74"
+      "imdb": "6.7",
+      "rt": "71%",
+      "meta": "57"
     },
     "ficha": {
-      "director": "Christopher Nolan",
-      "guionista": "Jonathan Nolan, Christopher Nolan",
-      "duracion": "169 min",
-      "pais": "Estados Unidos, Reino Unido",
-      "idioma": "Inglés",
-      "estudio": "Paramount Pictures",
+      "director": "François", "SimardAnouk WhissellYoann","Karl Whissell",
+      "guionista": "Matt LeslieStephen", "J. Smith",
+      "duracion": "1hr 45min",
+      "pais": "Estados Unidos",
+      "idioma": "Latino","Inglés",
+      "estudio": "Brightlight Pictures",
       "formato": "MKV 1080p",
-      "calidad": "BluRay Remux"
+      "calidad": "WEB-DL"
     }
   },
   {
