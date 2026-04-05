@@ -398,7 +398,7 @@
   </div>
 
   <div class="social-links">
-    <a class="social-btn yt-btn" href="https://www.youtube.com/@YOUR_CHANNEL" target="_blank" rel="noopener">
+    <a class="social-btn yt-btn" href="https://www.youtube.com/UC-8_UYJIj0_FToHZIQQKQRg" target="_blank">
       <svg class="icon" viewBox="0 0 24 24"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2C0 8.1 0 12 0 12s0 3.9.5 5.8a3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1C24 15.9 24 12 24 12s0-3.9-.5-5.8zM9.75 15.5v-7l6.5 3.5-6.5 3.5z"/></svg>
       YouTube
     </a>
@@ -434,212 +434,101 @@
 </footer>
 
 <script>
-  let allPosts = [];
-  let activeTag = null;
-  const ADMIN_PASSWORD = 'AcCo85246'; // ¡Cámbiala por una segura!
+let allPosts = [];
+let activeTag = null;
 
-  // Cargar posts desde el servidor
-  async function loadPosts() {
-      try {
-    const res = await fetch('/api/posts');
+// 1. Cargar los datos del JSON
+async function loadPosts() {
+  try {
+    const res = await fetch('posts.json');
     allPosts = await res.json();
     
-    allPosts = allPosts.map(p => ({
-      ...p,
-      createdAt: p.createdAt || Date.now() - (1000000000 * (p.id || 0))
-    }));
+    // Ordenar por fecha (más recientes primero)
+    allPosts.sort((a, b) => b.createdAt - a.createdAt);
     
-    allPosts.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
-    
+    buildTagCounts();
+    renderPosts(allPosts);
   } catch (error) {
     console.error('Error cargando posts:', error);
-    allPosts = [];
   }
-  
-  buildTagCounts();
-  renderPosts(allPosts);
-  }
+}
 
-  // Guardar posts en el servidor
-  async function saveToServer() {
-    console.log('Guardando en Vercel API...');
-  
-  try {
-    const response = await fetch('/api/posts', {
-      method: 'POST',
-      headers: { 
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        password: ADMIN_PASSWORD,
-        posts: allPosts
-      })
-    });
-    
-    console.log('Respuesta:', response.status);
-    
-    if (!response.ok) {
-      const errorData = await response.json();
-      throw new Error(errorData.error || `Error ${response.status}`);
-    }
-    
-    const data = await response.json();
-    
-    if (data.success) {
-      alert('✅ ¡Post guardado exitosamente!');
-      return true;
-    } else {
-      throw new Error(data.error || 'Error desconocido');
-    }
-  } catch (error) {
-    console.error('Error detallado:', error);
-    alert(`❌ Error al guardar: ${error.message}`);
-    return false;
-  }
-  }
+// 2. Dibujar las tarjetas de películas en el grid
+function renderPosts(posts) {
+  const grid = document.getElementById('postsGrid');
+  const noResults = document.getElementById('no-results');
+  grid.innerHTML = '';
 
-  // Agregar nuevo post
-  async function addNewPost() {
-    const password = prompt('🔐 Contraseña de administrador:');
-    if (password !== ADMIN_PASSWORD) {
-      alert('❌ Contraseña incorrecta');
-      return;
-    }
-    
-    const newPost = {
-      id: Date.now(),
-      createdAt: Date.now(),
-      title: prompt("📽️ Título de la película:") || "Sin título",
-      year: parseInt(prompt("📅 Año:")) || new Date().getFullYear(),
-      poster: prompt("🖼️ URL del póster:") || "https://via.placeholder.com/200x300/1a1a26/6b6b8a?text=POSTER",
-      tags: prompt("🏷️ Tags (separados por coma):")?.split(",").map(t => t.trim()) || ["General"],
-      download: prompt("🔗 URL de descarga:") || "#",
-      featured: confirm("⭐ ¿Marcar como destacado?"),
-      synopsis: prompt("📝 Sinopsis:") || "Sin sinopsis disponible.",
-      youtubeId: prompt("🎬 ID de YouTube:") || "",
-      ratings: {
-        imdb: prompt("⭐ IMDb:") || "",
-        rt: prompt("🍅 Rotten Tomatoes:") || "",
-        meta: prompt("📊 Metacritic:") || ""
-      },
-      ficha: {
-        director: prompt("🎬 Director:"),
-        guionista: prompt("✍️ Guionista:"),
-        duracion: prompt("⏱️ Duración:"),
-        pais: prompt("🌍 País:"),
-        idioma: prompt("🗣️ Idioma:"),
-        estudio: prompt("🏢 Estudio:"),
-        formato: prompt("💿 Formato:"),
-        calidad: prompt("✨ Calidad:")
-      }
-    };
-    
-    allPosts.unshift(newPost);
-    const saved = await saveToServer();
-    
-    if (saved) {
-      buildTagCounts();
-      applyFilters();
-      alert(`✅ "${newPost.title}" agregado correctamente!`);
-    }
-  }
-
-  // Botón flotante
-  function addAdminButton() {
-    const btn = document.createElement('button');
-    btn.innerHTML = '➕';
-    btn.className = 'admin-btn';
-    btn.title = 'Agregar película (Admin)';
-    btn.onclick = addNewPost;
-    document.body.appendChild(btn);
-  }
-
-  // Contar tags
-  function buildTagCounts() {
-    const counts = {};
-    allPosts.forEach(p => p.tags.forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
-
-    const list = document.getElementById('tagList');
-    list.innerHTML = '';
-    
-    const allItem = document.createElement('li');
-    allItem.innerHTML = `<a href="#" class="active" data-tag="all">
-      Todos <span class="tag-count">${allPosts.length}</span></a>`;
-    list.appendChild(allItem);
-
-    Object.entries(counts).sort((a,b) => b[1]-a[1]).forEach(([tag, count]) => {
-      const li = document.createElement('li');
-      li.innerHTML = `<a href="#" data-tag="${tag}">
-        ${tag} <span class="tag-count">${count}</span></a>`;
-      list.appendChild(li);
-    });
-
-    list.addEventListener('click', e => {
-      e.preventDefault();
-      const a = e.target.closest('a');
-      if (!a) return;
-      list.querySelectorAll('a').forEach(x => x.classList.remove('active'));
-      a.classList.add('active');
-      activeTag = a.dataset.tag === 'all' ? null : a.dataset.tag;
-      applyFilters();
-    });
-  }
-
-  // Renderizar tarjetas
-  function renderPosts(posts) {
-    const grid = document.getElementById('postsGrid');
-    const none = document.getElementById('no-results');
-    grid.innerHTML = '';
-
-    if (!posts.length) { none.style.display = 'block'; return; }
-    none.style.display = 'none';
-
-    posts.forEach((p, i) => {
+  if (posts.length === 0) {
+    noResults.style.display = 'block';
+  } else {
+    noResults.style.display = 'none';
+    posts.forEach(post => {
       const card = document.createElement('div');
       card.className = 'card';
-      card.style.animationDelay = `${i * 0.05}s`;
-      
-      const dateAdded = p.createdAt ? new Date(p.createdAt).toLocaleDateString() : '';
-      
+      // Redirigir a posts.html con el ID de la película
+      card.onclick = () => window.location.href = `posts.html?id=${post.id}`;
+
       card.innerHTML = `
         <div class="card-poster">
-          ${p.featured ? '<span class="badge-featured">⭐ Destacado</span>' : ''}
-          <img src="${p.poster}" alt="${p.title}" loading="lazy"
-               onerror="this.src='https://via.placeholder.com/200x300/1a1a26/6b6b8a?text=${encodeURIComponent(p.title)}'"/>
+          ${post.featured ? '<span class="badge-featured">Destacado</span>' : ''}
+          <img src="${post.poster}" alt="${post.title}" loading="lazy">
           <div class="overlay">
-            <a class="dl-btn" href="${p.download}">⬇ Descargar</a>
+            <span class="dl-btn">Ver Detalles</span>
           </div>
         </div>
         <div class="card-info">
-          <p class="card-title" title="${p.title}">${p.title}</p>
-          <p class="card-year">${p.year} ${dateAdded ? `• 📅 ${dateAdded}` : ''}</p>
-        </div>`;
-      
-      card.addEventListener('click', (e) => {
-        if (!e.target.closest('.dl-btn')) {
-          window.location.href = `post.html?id=${p.id}`;
-        }
-      });
-      
+          <div class="card-title">${post.title}</div>
+          <div class="card-year">${post.year}</div>
+        </div>
+      `;
       grid.appendChild(card);
     });
   }
+}
 
-  function applyFilters() {
-    const q = document.getElementById('searchInput').value.toLowerCase().trim();
-    const filtered = allPosts.filter(p => {
-      const matchTag = !activeTag || p.tags.includes(activeTag);
-      const matchQ   = !q || p.title.toLowerCase().includes(q) ||
-                       p.tags.some(t => t.toLowerCase().includes(q));
-      return matchTag && matchQ;
+// 3. Crear la lista de Tags lateral
+function buildTagCounts() {
+  const tagList = document.getElementById('tagList');
+  const counts = {};
+  
+  allPosts.forEach(post => {
+    post.tags.forEach(tag => {
+      counts[tag] = (counts[tag] || 0) + 1;
     });
-    renderPosts(filtered);
+  });
+
+  tagList.innerHTML = `<li><a href="#" class="${!activeTag ? 'active' : ''}" onclick="filterByTag(null)">Todos <span class="tag-count">${allPosts.length}</span></a></li>`;
+  
+  for (const tag in counts) {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <a href="#" class="${activeTag === tag ? 'active' : ''}" onclick="filterByTag('${tag}')">
+        ${tag} <span class="tag-count">${counts[tag]}</span>
+      </a>`;
+    tagList.appendChild(li);
   }
+}
 
-  document.getElementById('searchInput').addEventListener('input', applyFilters);
+// 4. Buscador y Filtros
+function filterByTag(tag) {
+  activeTag = tag;
+  const filtered = tag ? allPosts.filter(p => p.tags.includes(tag)) : allPosts;
+  renderPosts(filtered);
+  buildTagCounts();
+}
 
-  loadPosts();
-  addAdminButton();
+document.getElementById('searchInput').addEventListener('input', (e) => {
+  const query = e.target.value.toLowerCase();
+  const filtered = allPosts.filter(p => 
+    p.title.toLowerCase().includes(query) || 
+    p.tags.some(t => t.toLowerCase().includes(query))
+  );
+  renderPosts(filtered);
+});
+
+// Iniciar la carga al abrir la página
+loadPosts();
 </script>
 
 </body>

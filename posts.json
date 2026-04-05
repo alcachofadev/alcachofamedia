@@ -133,5 +133,32 @@
       "formato": "MKV 1080p",
       "calidad": "BluRay"
     }
+  },
+  {
+    "id":6,
+    "createdAt": 700000000005,
+    "title": "Frida, Naturaleza Viva",
+    "year": "1983",
+    "poster":"https://image.tmdb.org/t/p/w600_and_h900_face/vxVWvxSBVW1kICMAfc03VVzb0qS.jpg",
+    "tags":["Biografia","Drama"],
+    "download":"https://cpmlink.net/nj-oAQ",
+    "featured":true,
+    "synopsis":"Una crónica de la pintora Frida Kahlo y su encuentro con las personalidades de su época. A pesar de estar confinada a una silla de ruedas, se enfrenta y traza algunos de los aspectos más coloridos y controvertidos de la historia de México.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.8",
+      "rt":"86%",
+      "meta":"68"
+    },
+    "ficha":{
+      "director": "Paul Leduc",
+      "guionista": "Jose Joaquin Blanco - Paul Leduc",
+      "duracion": "108 min",
+      "pais": "Mexico",
+      "idioma": "Latino",
+      "estudio": "Clasa Films Mundiales",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL"
+    }
   }
 ]
