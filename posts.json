@@ -85,28 +85,28 @@
   {
     "id": 4,
     "createdAt": 1700000000003,
-    "title": "Dune",
-    "year": 2021,
-    "poster": "https://image.tmdb.org/t/p/w500/d5NXSklXo0qyIYkgV94XAgMIckC.jpg",
-    "tags": ["Ciencia Ficción", "Aventura"],
+    "title": "GOAT: La cabra que cambió el juego",
+    "year": 2026,
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_face/3dH7p6eAfzDElYYFKfYWpf9xlsG.jpg",
+    "tags": ["Animación", "Comedia","Familia","Infantil"],
     "download": "#",
     "featured": false,
-    "synopsis": "Paul Atreides debe viajar al planeta más peligroso del universo para asegurar el futuro de su familia.",
-    "youtubeId": "8g18jFHCLXk",
+    "synopsis": "Una cabra pequeña pero valiente se une a un equipo profesional de roarball, un deporte peligroso en canchas cambiantes. Debe demostrar su valor con diversos compañeros.",
+    "youtubeId": "#",
     "ratings": {
-      "imdb": "8.0",
-      "rt": "83%",
-      "meta": "74"
+      "imdb": "6.7",
+      "rt": "85%",
+      "meta": "64"
     },
     "ficha": {
-      "director": "Denis Villeneuve",
-      "guionista": "Jon Spaihts, Denis Villeneuve, Eric Roth",
-      "duracion": "155 min",
+      "director": "Tyree DillihayAdam Rosette",
+      "guionista": "Aaron BuchsbaumTeddy RileyNicolas Curcio",
+      "duracion": "100 min",
       "pais": "Estados Unidos",
-      "idioma": "Inglés",
-      "estudio": "Warner Bros. / Legendary",
-      "formato": "MKV 2160p",
-      "calidad": "4K HDR"
+      "idioma": "Inglés, Latino",
+      "estudio": "Sony Pictures Animation",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL"
     }
   },
   {
