@@ -58,28 +58,28 @@
   {
     "id": 3,
     "createdAt": 1700000000002,
-    "title": "Inception",
-    "year": 2010,
-    "poster": "https://image.tmdb.org/t/p/w500/oYuLEt3zVCKq57qu2F8dT7NIa6f.jpg",
-    "tags": ["Acción", "Ciencia Ficción"],
-    "download": "#",
+    "title": "Mirreyes Vs Godinez Home Office",
+    "year": 2020,
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_face/2gE0ME6s3469SV9dsNKtih9srMk.jpg",
+    "tags": ["Comedia", "Español"],
+    "download": "https://exe.io/HomeOfficeMirreyes",
     "featured": false,
-    "synopsis": "Dom Cobb roba secretos valiosos del subconsciente de sus víctimas durante el estado de sueño.",
+    "synopsis": "A los empleados de Kuri González Shoe Stores les encantó la idea de Home-Office, en marzo. Después de meses de confinamiento, Mirreyes y Godínez intentan constantemente mantener la cordura.",
     "youtubeId": "YoHD9XEInc0",
     "ratings": {
-      "imdb": "8.8",
-      "rt": "87%",
-      "meta": "74"
+      "imdb": "5.6",
+      "rt": "0%",
+      "meta": "60"
     },
     "ficha": {
-      "director": "Christopher Nolan",
-      "guionista": "Christopher Nolan",
-      "duracion": "148 min",
-      "pais": "Estados Unidos, Reino Unido",
+      "director": "Chava Cartas",
+      "guionista": "Juan Carlos GarzónAngélica Gudiño",
+      "duracion": "57 min",
+      "pais": "México",
       "idioma": "Inglés",
-      "estudio": "Warner Bros. Pictures",
+      "estudio": "Draco Films",
       "formato": "MKV 1080p",
-      "calidad": "BluRay Remux"
+      "calidad": "WEB-DL"
     }
   },
   {
