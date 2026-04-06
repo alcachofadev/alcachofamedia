@@ -120,7 +120,7 @@
     "download": "https://exe.io/Hoppers",
     "featured": false,
     "synopsis": "Una amante de los animales aprovecha la oportunidad de utilizar una tecnología que coloca su conciencia en un castor robótico, descubriendo misterios dentro del mundo animal que van más allá de lo que podría haber imaginado.",
-    "youtubeId": "#",
+    "youtubeId": "t7QV-pMkZGk",
     "ratings": {
       "imdb": "7.5",
       "rt": "94%",
@@ -161,6 +161,34 @@
       "pais": "Mexico",
       "idioma": "Latino",
       "estudio": "Clasa Films Mundiales",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
+  },
+  {
+    "id":7,
+    "createdAt": 700000000005,
+    "title": "Super Mario Galaxy: La Película",
+    "year": "2026",
+    "poster":"https://image.tmdb.org/t/p/original/4Js0gYWxuvTN6b8iAaSF1cSQzBs.jpg",
+    "tags":["Animación","Aventura","Infantil","Acción","Fantasía"],
+    "download":"#",
+    "featured":true,
+    "synopsis":"Luego de vencer a Bowser y salvar Brooklyn, Mario y amigos enfrentan una nueva amenaza: Wario, con Bowser Jr., conspira para dominar el mundo. Deben aliarse con Yoshi para detener a este dúo malvado.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"6.5",
+      "rt":"42%",
+      "meta":"70"
+    },
+    "ficha":{
+      "director": "Aaron Horvath, Michael Jelenic, Pierre Leduc",
+      "guionista": "Matthew Fogel",
+      "duracion": "98 min",
+      "pais": "Estados Unidos",
+      "idioma": "Latino",
+      "estudio": "Ilumination | Nintendo",
       "formato": "MKV 1080p",
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
