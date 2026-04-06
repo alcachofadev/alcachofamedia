@@ -7,7 +7,7 @@
     "poster": "https://media.themoviedb.org/t/p/w300_and_h450_face/htA4DEnBQf7Wg4M1jsUr7kHALrV.jpg",
     "tags": ["Ciencia Ficción", "Aventura", "Terror Adolescente","Crimen","Misterio","Drama"],
     "download": "https://cpmlink.net/qT-oAQ",
-    "featured": true,
+    "featured": false,
     "synopsis": "Al sospechar que su vecino policía es en realidad un asesino en serie, un grupo de adolescentes se pasan el verano espiándole y reuniendo pruebas, pero conforme se acercan a la verdad las cosas se ponen peligrosas.",
     "youtubeId": "https://www.youtube.com/@TodoFreez",
     "ratings": {
@@ -145,7 +145,7 @@
     "poster":"https://image.tmdb.org/t/p/w600_and_h900_face/vxVWvxSBVW1kICMAfc03VVzb0qS.jpg",
     "tags":["Biografia","Drama"],
     "download":"https://cpmlink.net/nj-oAQ",
-    "featured":true,
+    "featured":false,
     "synopsis":"Una crónica de la pintora Frida Kahlo y su encuentro con las personalidades de su época. A pesar de estar confinada a una silla de ruedas, se enfrenta y traza algunos de los aspectos más coloridos y controvertidos de la historia de México.",
     "youtubeId":"#",
     "ratings":{
