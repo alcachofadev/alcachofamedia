@@ -215,8 +215,36 @@
       "guionista": "David Midell, Enrico Natale",
       "duracion": "98 min",
       "pais": "Estados Unidos",
-      "idioma": "Inglpes | Latino",
+      "idioma": "Inglés | Latino",
       "estudio": "Cinemachine Shop",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
+  },
+  {
+    "id":9,
+    "createdAt": 700000000008,
+    "title": "Welcome al Norte",
+    "year": "2023",
+    "poster":"https://image.tmdb.org/t/p/original/vJl59tqLHGkhpy8GKjpP2kcMiiq.jpg",
+    "tags":["Comedia"],
+    "download":"#",
+    "featured":false,
+    "synopsis":"Polito es gerente en una oficina de mensajería en Izamal, Yucatán,quiere cumplir su sueño de un ascenso y tener una plaza en Cancún para mudarse con su esposa Teo e hijo.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"7.0",
+      "rt":"0%",
+      "meta":"55"
+    },
+    "ficha":{
+      "director": "Gustavo Loza",
+      "guionista": "Gustavo Loza",
+      "duracion": "113 min",
+      "pais": "México",
+      "idioma": "Latino",
+      "estudio": "BTF Media",
       "formato": "MKV 1080p",
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
