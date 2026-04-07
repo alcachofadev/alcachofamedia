@@ -249,5 +249,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":10,
+    "createdAt": 700000000009,
+    "title": "La casa de muñecas de Gabby: La película",
+    "year": "2025",
+    "poster":"https://image.tmdb.org/t/p/original/ruAIbycacQIIXeTf4xh1r1NjvJa.jpg",
+    "tags":["Comedia","Aventura","Animación","Músical","Infantil"],
+    "download":"https://exe.io/GabbysDollHouseMF",
+    "featured":false,
+    "synopsis":"Gabby y su abuela Gigi viajan por carretera, pero la preciada casa de muñecas de Gabby termina en manos de la excéntrica gata Vera. Gabby reune a los Gabby Cats en una misión para recuperar su preciado tesoro, antes de que sea tarde.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"5.5",
+      "rt":"85%",
+      "meta":"46"
+    },
+    "ficha":{
+      "director": "Ryan Crego",
+      "guionista": "Mike Lew, Rehana Lew Mirza, Adam Wilson, Melanie Wilson LaBracio, Ryan Crego, Jennifer Twomey",
+      "duracion": "98 min",
+      "pais": "Canadá | Estados Unidos",
+      "idioma": "Inglés | Latino",
+      "estudio": "Catchlight StudiosDreamWorks AnimationNational Film Development Corporation of India (NFDC)",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"pelismediapluss"
+    }
   }
+
 ]
