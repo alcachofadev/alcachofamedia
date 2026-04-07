@@ -333,6 +333,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+    {
+    "id":13,
+    "createdAt": 700000000012,
+    "title": "Noise",
+    "year": "2024",
+    "poster":"https://image.tmdb.org/t/p/original/4bZpoLUNMOvmjobMnG1XubLh68l.jpg",
+    "tags":["Horror","Drama","Terror","Thriller","Suspenso"],
+    "download":"https://exe.io/NoiseCorea",
+    "featured":false,
+    "synopsis":"Una mujer con un impedimento auditivo que se ve perseguida por sonidos relacionados con la desaparición de su hermana y la presencia de un espíritu malévolo. Esto conduce a un oscuro secreto y a la revelación de una misteriosa entidad.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"5.7",
+      "rt":"67%",
+      "meta":"0"
+    },
+    "ficha":{
+      "director": "Kim Soo-jin",
+      "guionista": "Lee Je-hui",
+      "duracion": "93 min",
+      "pais": "Corea del Sur",
+      "idioma": "Coreano | Latino",
+      "estudio": "Finecut|KC Ventur",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 ]
