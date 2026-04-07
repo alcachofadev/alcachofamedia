@@ -361,6 +361,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+      {
+    "id":14,
+    "createdAt": 700000000013,
+    "title": "star Wars Maul:Señor de las Sombras",
+    "year": "2026",
+    "poster":"https://image.tmdb.org/t/p/original/9T4ECKFMBWqT7msxdaCGtsa3g5R.jpg",
+    "tags":["Acciónr","Animación","Aventura","Ciencia y Ficción","Fantasía","Sci-Fi"],
+    "download":"https://pastebin.com/bZ7FkdyL",
+    "featured":true,
+    "synopsis":"Ambientada tras los acontecimientos de «Las Guerras Clon», Maul trama reconstruir su organización criminal en un planeta que aún no ha sido conquistado por el Imperio. Allí se cruza en su camino con un joven padawan Jedi desilusionado, que podría ser el aprendiz que busca y que le ayudará en su implacable búsqueda de venganza.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.5",
+      "rt":"100%",
+      "meta":"71"
+    },
+    "ficha":{
+      "director": "Dave Filoni | Matt Michnovetz",
+      "guionista": "Dave Filoni | Matt Michnovetz",
+      "duracion": "28 min por capítulo",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Latino",
+      "estudio": "Lucasfilm Animation|Lucasfilm",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 ]
