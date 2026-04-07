@@ -305,6 +305,34 @@
       "calidad": "WEB-DL",
       "contraseña":"pelismediapluss"
     }
+  },
+   {
+    "id":12,
+    "createdAt": 700000000011,
+    "title": "Avatar: Fuego y Ceniza",
+    "year": "2025",
+    "poster":"https://image.tmdb.org/t/p/original/vHtH4xdcTbaCVftGwaeGFHfOB3p.jpg",
+    "tags":["Aventura","Animación","Acción","Ciencia y Ficción","Fantasía","Sci-Fi"],
+    "download":"https://exe.io/AvatarFuegoCeniza",
+    "featured":true,
+    "synopsis":"La familia de Jake y Neytiri se enfrenta a una tribu Na'vi hostil, el Pueblo de las Cenizas, liderados por el implacable Varang, mientras los conflictos en Pandora se intensifican y surgen nuevos dilemas morales.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"7.3",
+      "rt":"66%",
+      "meta":"61"
+    },
+    "ficha":{
+      "director": "James Cameron",
+      "guionista": "James Cameron, Rick Jaffa, Amanda Silver, Josh Friedman, Shane Salerno",
+      "duracion": "197 min",
+      "pais": "Canadá | Estados Unidos",
+      "idioma": "Inglés | Latino",
+      "estudio": "20th Century Studios(presents)|Lightstorm Entertainment|TSG Entertainment(in association with)|Canadian Film or Video Production Tax Credit (CPTC)",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 ]
