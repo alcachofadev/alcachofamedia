@@ -256,7 +256,7 @@
     "title": "La casa de muñecas de Gabby: La película",
     "year": "2025",
     "poster":"https://image.tmdb.org/t/p/original/ruAIbycacQIIXeTf4xh1r1NjvJa.jpg",
-    "tags":["Comedia","Aventura","Animación","Músical","Infantil"],
+    "tags":["Comedia","Aventura","Animación","Músical","Infantil","Familia"],
     "download":"https://exe.io/GabbysDollHouseMF",
     "featured":false,
     "synopsis":"Gabby y su abuela Gigi viajan por carretera, pero la preciada casa de muñecas de Gabby termina en manos de la excéntrica gata Vera. Gabby reune a los Gabby Cats en una misión para recuperar su preciado tesoro, antes de que sea tarde.",
@@ -273,6 +273,34 @@
       "pais": "Canadá | Estados Unidos",
       "idioma": "Inglés | Latino",
       "estudio": "Catchlight StudiosDreamWorks AnimationNational Film Development Corporation of India (NFDC)",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"pelismediapluss"
+    }
+  },
+  {
+    "id":11,
+    "createdAt": 700000000010,
+    "title": "Lilo & Stich",
+    "year": "2025",
+    "poster":"https://image.tmdb.org/t/p/original/odprjRLvbA9VqouIcv8yD2lbpQY.jpg",
+    "tags":["Comedia","Aventura","Animación","Familia","Infantil"],
+    "download":"https://exe.io/LiloYStitchMF",
+    "featured":false,
+    "synopsis":"Una solitaria niña hawaiana se hace amiga de un extraterrestre fugitivo y ayuda a sanar a su fragmentada familia.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"6.7",
+      "rt":"72%",
+      "meta":"72"
+    },
+    "ficha":{
+      "director": "Dean Fleischer Camp",
+      "guionista": "Chris Kekaniokalani Bright, Mike Van Waes, Chris Sanders, Dean DeBlois",
+      "duracion": "108 min",
+      "pais": "Canadá | Estados Unidos | Australia",
+      "idioma": "Inglés | Latino",
+      "estudio": "Walt Disney Pictures(Disney)| Rideback",
       "formato": "MKV 1080p",
       "calidad": "WEB-DL",
       "contraseña":"pelismediapluss"
