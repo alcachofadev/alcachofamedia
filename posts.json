@@ -168,7 +168,7 @@
   },
   {
     "id":7,
-    "createdAt": 700000000005,
+    "createdAt": 700000000006,
     "title": "Super Mario Galaxy: La Película",
     "year": "2026",
     "poster":"https://image.tmdb.org/t/p/original/4Js0gYWxuvTN6b8iAaSF1cSQzBs.jpg",
@@ -189,6 +189,34 @@
       "pais": "Estados Unidos",
       "idioma": "Latino",
       "estudio": "Ilumination | Nintendo",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
+  },
+  {
+    "id":8,
+    "createdAt": 700000000007,
+    "title": "Exorcismo: El Ritual",
+    "year": "2025",
+    "poster":"https://image.tmdb.org/t/p/original/8gT2cR9ETkSZbNSmQQeCUW6sYCg.jpg",
+    "tags":["Terror","Drama","Suspenso"],
+    "download":"#",
+    "featured":false,
+    "synopsis":"Dos sacerdotes, uno que se cuestiona su fe y otro que se enfrenta a un pasado turbulento, deben dejar a un lado sus diferencias para salvar a una joven poseída a través de una difícil y peligrosa serie de exorcismos.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"4.5",
+      "rt":"9%",
+      "meta":"59"
+    },
+    "ficha":{
+      "director": "David Midell",
+      "guionista": "David Midell, Enrico Natale",
+      "duracion": "98 min",
+      "pais": "Estados Unidos",
+      "idioma": "Inglpes | Latino",
+      "estudio": "Cinemachine Shop",
       "formato": "MKV 1080p",
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
