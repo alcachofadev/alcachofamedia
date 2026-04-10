@@ -362,7 +362,7 @@
       "contraseña":"alcachofa"
     }
   },
-      {
+  {
     "id":14,
     "createdAt": 700000000013,
     "title": "star Wars Maul:Señor de las Sombras",
@@ -389,6 +389,36 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":15,
+    "createdAt": 700000000014,
+    "title": "Malcolm el de en Medio: La vida sigue siendo injusta",
+    "year": "2026",
+    "poster":"https://image.tmdb.org/t/p/original/4sMqoPaOos1ksHp1MOMdaw1iWeW.jpg",
+    "tags":["Comedia","Drama","Sitcom"],
+    "download":"https://exe.io/MalcolmLavidaEsinjusta",
+    "featured":true,
+    "synopsis":"Malcolm y su hija se ven envueltos en el caos familiar cuando Hal y Lois exigen su presencia para la fiesta de su 40 aniversario de bodas.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"0",
+      "rt":"79%",
+      "meta":"85"
+    },
+    "ficha":{
+      "director": "Linwood Boomer | Ken Kwapis",
+      "guionista": "Linwood Boomer",
+      "duracion": "27 min por capítulo",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Latino",
+      "estudio": "20th Television | Disney+ | KatCo",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa",
+      "Capitulos":"1 al 4"
+    }
   }
+
 
 ]
