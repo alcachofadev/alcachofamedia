@@ -418,6 +418,34 @@
       "contraseña":"alcachofa",
       "Capitulos":"1 al 4"
     }
+  },
+  {
+    "id":16,
+    "createdAt": 700000000015,
+    "title": "The Phoenix Tapes '97",
+    "year": "2016",
+    "poster":"https://image.tmdb.org/t/p/original/pcBro07U8hARvconcYHJAQGz50J.jpg",
+    "tags":["Ciencia Ficción","Terror","Thriller","Error y Metrajes encontrados","Suspenso"],
+    "download":"https://exe.io/ThePhoenixTapes97",
+    "featured":false,
+    "synopsis":"Cuatro campistas hacen un viaje y son testigos de extrañas luces en el cielo sobre Arizona en 1997. Siguen desaparecidos hasta el día de hoy, y sus cuerpos no han sido hallados.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"5.3",
+      "rt":"78%",
+      "meta":"0"
+    },
+    "ficha":{
+      "director": "Turner Clay",
+      "guionista": "Linwood Boomer",
+      "duracion": "67 min por capítulo",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Latino",
+      "estudio": "Phoenix Tapes Foundation",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
