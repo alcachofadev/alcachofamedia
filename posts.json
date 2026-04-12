@@ -474,6 +474,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":18,
+    "createdAt": 700000000017,
+    "title": "Turno Nocturno",
+    "year": "2024",
+    "poster":"https://image.tmdb.org/t/p/original/iSSx9Bys64vlOkvkyKXtp19P7Re.jpg",
+    "tags":["Horror Psicológico","Horror sobrenatural","Terror","Suspenso"],
+    "download":"https://exe.io/TurnoNocturnoF",
+    "featured":false,
+    "synopsis":"En los pasillos oscuros de un hospital, deambula el fantasma de una enfermera conocida como La planchada, famosa por su aspecto impecable. Mientras los pacientes creen que ella está ahí para ayudarlos, las enfermeras y doctores conocen la verdad: deben seguir sus reglas al pie de la letra. Que nada se te olvide. No te distraigas. No te relaciones con el personal. No te duermas nunca. Rebeca, una nueva enfermera en periodo de prueba, no solo debe demostrar su valía ante sus superiores, sino también enfrentarse a esta misteriosa y temida entidad.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"5.2",
+      "rt":"0%",
+      "meta":"64"
+    },
+    "ficha":{
+      "director": "Rigoberto Castañeda",
+      "guionista": "Rigoberto Castañeda",
+      "duracion": "107 min",
+      "pais": "México",
+      "idioma": "Español Latino",
+      "estudio": "Sony Pictures",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
