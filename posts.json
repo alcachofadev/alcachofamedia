@@ -438,10 +438,38 @@
     "ficha":{
       "director": "Turner Clay",
       "guionista": "Linwood Boomer",
-      "duracion": "67 min por capítulo",
+      "duracion": "67 min",
       "pais": "Estados Unidos",
       "idioma": "Inglés | Latino",
       "estudio": "Phoenix Tapes Foundation",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
+  },
+  {
+    "id":17,
+    "createdAt": 700000000016,
+    "title": "Superman",
+    "year": "2025",
+    "poster":"https://image.tmdb.org/t/p/original/waa6v1VKBbOGzWku7OpwmQw2uEf.jpg",
+    "tags":["Acción","Aventura","Superhéroe","Ciencia Ficción","Sci-Fi"],
+    "download":"https://exe.io/SupermanMF",
+    "featured":false,
+    "synopsis":"Un superhéroe, se reconcilia con su herencia y su educación humana. Es la encarnación de la verdad, la justicia y un mañana mejor en un mundo que ve la bondad como algo anticuado.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"7.0",
+      "rt":"83%",
+      "meta":"68"
+    },
+    "ficha":{
+      "director": "James Gunn",
+      "guionista": "James Gunn | Jerry Siegel | Joe Shuster",
+      "duracion": "129 min",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Latino",
+      "estudio": "DC Studios | Domain Entertainment (II) | Troll Court Entertainment",
       "formato": "MKV 1080p",
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
