@@ -502,6 +502,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":19,
+    "createdAt": 700000000018,
+    "title": "Nadie te oye Perfume de Violetas",
+    "year": "2001",
+    "poster":"https://image.tmdb.org/t/p/original/gWuhAHj0vK4UNZvJZevxobkmGDq.jpg",
+    "tags":["Drama Psicológico","Drama"],
+    "download":"#",
+    "featured":false,
+    "synopsis":"essica y Miriam, dos adolescentes de la Ciudad de México, inician una fuerte amistad a pesar de sus distintas personalidades. Todo cambia cuando un joven chofer de microbús viola a Yessica con la ayuda de Jorge, el hermanastro de ella.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"7.1",
+      "rt":"100%",
+      "meta":"78"
+    },
+    "ficha":{
+      "director": "Marisa Sistach",
+      "guionista": "José Buil | Marisa Sistach",
+      "duracion": "90 min",
+      "pais": "México",
+      "idioma": "Español Latino",
+      "estudio": "Centro de Capacitación Cinematográfica (CCC) | CncaConsejo Nacional para la Cultura y las Artes (CONACULTA)",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
