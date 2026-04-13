@@ -510,7 +510,7 @@
     "year": "2001",
     "poster":"https://image.tmdb.org/t/p/original/gWuhAHj0vK4UNZvJZevxobkmGDq.jpg",
     "tags":["Drama Psicológico","Drama"],
-    "download":"#",
+    "download":"https://exe.io/perfuneVioletas",
     "featured":false,
     "synopsis":"essica y Miriam, dos adolescentes de la Ciudad de México, inician una fuerte amistad a pesar de sus distintas personalidades. Todo cambia cuando un joven chofer de microbús viola a Yessica con la ayuda de Jorge, el hermanastro de ella.",
     "youtubeId":"#",
@@ -530,7 +530,36 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":20,
+    "createdAt": 700000000019,
+    "title": "Rooster Fighter",
+    "year": "2026",
+    "poster":"https://image.tmdb.org/t/p/original/8yS49lP737cirdEfkCkMJlCOex2.jpg",
+    "tags":["Parodia","Acción","Comedia","Drama","Anime"],
+    "download":"https://exe.io/RoosterFighter",
+    "featured":true,
+    "synopsis":"Keiji no es un gallo común-es el máximo protector de la humanidad. Sus enemigos miden diez pisos de altura, pero su corazón valiente y su poderoso grito de batalla-Kokekokko-son aún más grandes.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"7.4",
+      "rt":"0%",
+      "meta":"0"
+    },
+    "ficha":{
+      "director": "Shû Sakuratani",
+      "guionista": "Shû Sakuratani",
+      "duracion": "90 min",
+      "pais": "México",
+      "idioma": "Español Latino",
+      "estudio": "Sanzigen | Sola EntertainmentHero's",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
+
 
 
 ]
