@@ -586,7 +586,36 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":22,
+    "createdAt": 700000000021,
+    "title": "The Boys Temporada 5",
+    "year": "2026",
+    "poster":"https://image.tmdb.org/t/p/original/ut4PhX7OP2l2oJhrIUYWnt9pnQU.jpg",
+    "tags":["Superhéroe","Comedia Oscura","Comedia pornográfica","Sátira","Tragedia","Acción","Comedia","Crimen"],
+    "download":"#",
+    "featured":true,
+    "synopsis":"Homelander gobierna Estados Unidos mediante el terror fascista y encierra en los llamados Campos de la Libertad a quienes se le oponen. Butcher, Hughie, Annie y The Boys organizan una resistencia desesperada para desafiar su régimen tiránico, aun cuando las probabilidades están totalmente en su contra.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.6",
+      "rt":"93%",
+      "meta":"76"
+    },
+    "ficha":{
+      "director": "Eric Kripke",
+      "guionista": "-",
+      "duracion": "60 min por capítulo",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "Amazon Studios | Kickstart Entertainment | Kripke Enterprises",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
+
 
 
 
