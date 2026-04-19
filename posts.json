@@ -558,6 +558,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":21,
+    "createdAt": 700000000020,
+    "title": "Deadpool & Wolverine",
+    "year": "2024",
+    "poster":"https://image.tmdb.org/t/p/original/6aY3OzCIdxoBMYdiH5s17rWFFFA.jpg",
+    "tags":["Superhéroe","Acción","Comedia","Aventura","Sci-Fi"],
+    "download":"#",
+    "featured":false,
+    "synopsis":"Un Wade Wilson apático se esfuerza en la vida civil. Sus días como el mercenario moralmente flexible Deadpool quedaron atrás. Cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe, a regañadientes, volver a la acción junto a un reacio Wolverine.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"7.5",
+      "rt":"77%",
+      "meta":"76"
+    },
+    "ficha":{
+      "director": "Shawn Levy",
+      "guionista": "Ryan Reynolds | Rhett Reese | Paul Wernick",
+      "duracion": "90 min",
+      "pais": "Estados Unidos | Canadá",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "Marvel Studios | 20th Century Studios | Maximum Effort",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
