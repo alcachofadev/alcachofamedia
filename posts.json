@@ -642,6 +642,62 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":24,
+    "createdAt": 700000000023,
+    "title": "Venganza",
+    "year": "2026",
+    "poster":"https://image.tmdb.org/t/p/original/ggJGx8fwwy21gEIXYusIlHcUn8z.jpg",
+    "tags":["Acción","Crimen",""],
+    "download":"https://exe.io/Venganza2026Cahap",
+    "featured":true,
+    "synopsis":"Carlos Estrada sobrevive a un ataque en el que asesinan a su esposa. Su amigo Miguel Díaz lo oculta en un pueblo hasta que gana la lotería. Con su fortuna, se prepara para cazar a los responsables. Misión: justicia y venganza implacable..",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"5.6",
+      "rt":"-%",
+      "meta":"64"
+    },
+    "ficha":{
+      "director": "Rodrigo Valdes",
+      "guionista": "Djamel Bennecib | Matt Bosack | Daniel Krauze",
+      "duracion": "103 min",
+      "pais": "México",
+      "idioma": "Español Latino",
+      "estudio": "Amazon MGM StudiosEl Estudio",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
+  },
+  {
+    "id":25,
+    "createdAt": 700000000024,
+    "title": "Euphoria Temporada 3",
+    "year": "2019",
+    "poster":"https://image.tmdb.org/t/p/original/8APky0vlGgvLHsTl0e1eqpTB8bH.jpg",
+    "tags":["Drama Adolescente","Drama Psicológico","Drama"],
+    "download":"#",
+    "featured":true,
+    "synopsis":"Un grupo de adolescentes experimenta los altibajos del amor y la amistad en un mundo de redes sociales, sexo, drogas y violencia.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.2",
+      "rt":"83%",
+      "meta":"65"
+    },
+    "ficha":{
+      "director": "Sam Levinson",
+      "guionista": "Sam Levinson",
+      "duracion": "60 min por capítulo",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "A24 | Home Box Office (HBO) | Little Lamb",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
