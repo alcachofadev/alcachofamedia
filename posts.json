@@ -698,6 +698,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":26,
+    "createdAt": 700000000025,
+    "title": "American History X",
+    "year": "1998",
+    "poster":"https://image.tmdb.org/t/p/original/y1bOldgPms4HHouTHz55Xcvm6tK.jpg",
+    "tags":["Drama Carcelario","Drama Psicológico","Drama Político","Drama","Gángaster","Tragedia","Crimen"],
+    "download":"https://exe.io/AmericanHistoX",
+    "featured":false,
+    "synopsis":"Un ex skinhead neonazi intenta evitar que su hermano menor tome el mismo camino equivocado que él.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.5",
+      "rt":"84%",
+      "meta":"62"
+    },
+    "ficha":{
+      "director": "Tony Kaye",
+      "guionista": "David Mckenna",
+      "duracion": "119 min por capítulo",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "New Line Cinema | The Turman-Morrissey Company",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
