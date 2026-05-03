@@ -726,6 +726,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":27,
+    "createdAt": 700000000026,
+    "title": "Adolescencia",
+    "year": "2025",
+    "poster":"https://image.tmdb.org/t/p/original/abpaP4eHKRQfs2tbGz3rwg6yUVp.jpg",
+    "tags":["Drama","Suspenso","Drama Psicológico","Drama Adolescente","Policiaco Procesal","Crimen","Thriller"],
+    "download":"https://exe.io/Adolescence2025",
+    "featured":false,
+    "synopsis":"El mundo de la familia se pone patas arriba cuando Jamie Miller, de 13 años, es arrestado por asesinar a una compañera de escuela. Los cargos contra su hijo los obligan a enfrentarse a la peor pesadilla de cualquier padre.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.1",
+      "rt":"97%",
+      "meta":"91"
+    },
+    "ficha":{
+      "director": "Stephen Graham | Jack Thorne",
+      "guionista": "Stephen Graham | Jack Thorne",
+      "duracion": "60 min por capítulo",
+      "pais": "Reino Unido",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "It's All Made Up Productions | Matriarch Productions | Plan B Entertainment",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
