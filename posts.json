@@ -754,6 +754,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":28,
+    "createdAt": 700000000027,
+    "title": "Bleach",
+    "year": "2006",
+    "poster":"https://image.tmdb.org/t/p/original/5vbXUaYiIqJHRGmoJ9Ks8CVCCnP.jpg",
+    "tags":["Anime","Animación para adultos","Fantasía Adolescente","Fantasía","Acción","Animación","Thriller"],
+    "download":"#",
+    "featured":true,
+    "synopsis":"El estudiante de secundaria Ichigo Kurosaki, que tiene la capacidad de ver fantasmas, obtiene poderes de segador de almas de Rukia Kuchiki y se propone salvar al mundo.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.2",
+      "rt":"81%",
+      "meta":"77"
+    },
+    "ficha":{
+      "director": "Tite Kubo",
+      "guionista": "Tite Kubo",
+      "duracion": "24 min por capítulo",
+      "pais": "Japón",
+      "idioma": "Japonés/Sub Español",
+      "estudio": "TV Tokyo | DentsuPierrot",
+      "formato": "MKV 720p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
