@@ -810,6 +810,35 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  
+  {
+    "id":30,
+    "createdAt": 700000000029,
+    "title": "Eterno resplandor de una mente sin recuerdos",
+    "year": "2004",
+    "poster":"https://image.tmdb.org/t/p/original/l5yopdLguxJsJVmMK3RgMCW2JmJ.jpg",
+    "tags":["Drama Psicológico","Romance","Romance Oscuro","Ciencia Ficcioón","Drama"],
+    "download":"https://exe.io/EternoResplandor2004",
+    "featured":false,
+    "synopsis":"Cuando su relación se vuelve amarga, una pareja se somete a un procedimiento médico para borrarse mutuamente sus recuerdos.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"8.3",
+      "rt":"-%",
+      "meta":"81"
+    },
+    "ficha":{
+      "director": "Michel Gondry",
+      "guionista": "Charlie Kaufman | Michel Gondry | Pierre Bismuth",
+      "duracion": "108 min",
+      "pais": "Estados Unidos",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "Focus Features | Anonymous Content | This Is That Productions",
+      "formato": "MKV 720p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
