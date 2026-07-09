@@ -895,6 +895,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+  {
+    "id":33,
+    "createdAt": 700000000032,
+    "title": "Cruella",
+    "year": "2021",
+    "poster":"https://image.tmdb.org/t/p/original/tNFBP5OTmKm7CTc5ptUwgmepd8G.jpg",
+    "tags":["Acción","Comedia","Comedia oscura","Aventura","Drama","Crimen"],
+    "download":"https://exe.io/CruellaDevil",
+    "featured":true,
+    "synopsis":"Una precuela sobre la vida de la joven Cruella de Vil.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"7.3",
+      "rt":"75%",
+      "meta":"59%"
+    },
+    "ficha":{
+      "director": "Craig Gillespie",
+      "guionista": "Dana Fox | Tony McNamara | Aline Brosh McKenna",
+      "duracion": "134 min",
+      "pais": "Estados Unidos | Canadá | Reino Unido | Irlanda | Australia",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "Walt Disney Pictures | Marc Platt Productions | Gunn Films",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
