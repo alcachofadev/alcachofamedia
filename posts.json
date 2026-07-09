@@ -839,6 +839,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+   {
+    "id":31,
+    "createdAt": 700000000030,
+    "title": "Líbralos del mal",
+    "year": "2025",
+    "poster":"https://image.tmdb.org/t/p/original/xS6CuHMTeyiwVBhyx5AZlM47mdp.jpg",
+    "tags":["Horror","Horror corporal","Horror psicológico","Terror","Drama"],
+    "download":"https://exe.io/LibralosdelMal",
+    "featured":false,
+    "synopsis":"Durante un viaje romántico de aniversario a una cabaña aislada, una pareja se enfrenta a una presencia siniestra que los obliga a descubrir el aterrador pasado del lugar.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"5.5",
+      "rt":"50%",
+      "meta":"54"
+    },
+    "ficha":{
+      "director": "Oz Perkins",
+      "guionista": "Nick Lepard",
+      "duracion": "99 min",
+      "pais": "Estados Unidos | Canadá",
+      "idioma": "Inglés | Español Latino",
+      "estudio": "Oddfellows | PicturesRange Media Partners | Wayward Entertainment",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
