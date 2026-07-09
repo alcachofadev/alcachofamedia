@@ -867,6 +867,34 @@
       "calidad": "WEB-DL",
       "contraseña":"alcachofa"
     }
+  },
+   {
+    "id":32,
+    "createdAt": 700000000031,
+    "title": "Venganza",
+    "year": "2026",
+    "poster":"https://image.tmdb.org/t/p/original/ggJGx8fwwy21gEIXYusIlHcUn8z.jpg",
+    "tags":["Acción","Crimen","Thriller"],
+    "download":"https://exe.io/Venganza2026Cahap",
+    "featured":true,
+    "synopsis":"Carlos Estrada sobrevive a un ataque en el que asesinan a su esposa. Su amigo Miguel Díaz lo oculta en un pueblo hasta que gana la lotería. Con su fortuna, se prepara para cazar a los responsables. Misión: justicia y venganza implacable.",
+    "youtubeId":"#",
+    "ratings":{
+      "imdb":"5.5",
+      "rt":"-",
+      "meta":"75%"
+    },
+    "ficha":{
+      "director": "Rodrigo Valdes",
+      "guionista": "Djamel Bennecib | Matt Bosack | Daniel Krauze",
+      "duracion": "103 min",
+      "pais": "México",
+      "idioma": "Español Latino",
+      "estudio": "Amazon MGM studios | EL estudio",
+      "formato": "MKV 1080p",
+      "calidad": "WEB-DL",
+      "contraseña":"alcachofa"
+    }
   }
 
 
